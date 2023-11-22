@@ -45,6 +45,8 @@ button {
     width: 230px;
     background-color: white;
     overflow: hidden;
+    cursor: pointer;
+    
 }
 .sidebar_categories {
     width: 100%;
@@ -53,12 +55,17 @@ button {
     margin-bottom: 15px;
     margin-top: 15px;
 }
+.sidebar_category:hover{
+    background-color: rgb(224, 220, 220);
+}
 .sidebar_category {
     display: flex;
     align-items: center;
     padding: 15px 25px;
     color: rgb(96,96,96);
+    
 }
+
 .sidebar span {
     margin-left: 15px;
 }
